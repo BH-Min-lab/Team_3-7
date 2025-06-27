@@ -3,3 +3,4 @@ if __name__ == '__main__':
     print(" Simulation count:", n)
     print(f" Random play wins: {play_random(n):4.1f}% of simulations")
     print(f"Optimal play wins: {play_optimal(n):4.1f}% of simulations")
+    print("Simulation finished!")
